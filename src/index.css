@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  --font-base: 'Markazi Text', serif;
+  --font-alt: 'Open Sans', sans-serif;
+
+  --color-green: #495E57;
+  --color-yellow: #F4CE14;
+  --color-grey: #545454;
+}

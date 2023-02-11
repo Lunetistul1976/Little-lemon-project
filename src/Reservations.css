@@ -1,0 +1,21 @@
+.app__reservations{
+    background-color: var(--color-green);
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem;
+
+}
+
+.app__reservations-h1{
+    color: #edefee;
+    margin-right: -30px;
+}
+
+.app__reservations-p{
+    color: #edefee;
+    margin-top: -20px;
+    margin-bottom: 40px;
+    margin-right: -30px;
+}

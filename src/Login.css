@@ -1,0 +1,85 @@
+.app__login{
+    background-color: var(--color-yellow);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem;
+    position: relative;
+}
+
+.app__login button{
+    background-color: var(--color-green);
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 15px;
+    width: 510px;
+    color: EDEFEE;
+    border: none;
+  cursor: pointer;
+  height: 50px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+
+}
+
+.app__login input{
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 15px;
+    height: 50px;
+    width: 500px;
+    padding: 5px;
+  margin-bottom: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.app__login-h1 h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+
+.app__login label{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 20%;
+}
+.app__login h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+
+.app__login-new{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.app__login-new a{
+  margin-left: 10px;
+}
+
+.app__login-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+  
+  .app__login-forget-password {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
