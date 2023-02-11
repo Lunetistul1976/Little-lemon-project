@@ -1,0 +1,9 @@
+.booking-slot{
+    display: flex;
+    flex: 1;
+  align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+    color: var(--color-yellow);
+}
+

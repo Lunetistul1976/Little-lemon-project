@@ -1,0 +1,32 @@
+.app__online-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .app__order-h1 {
+    flex: 1;
+    display: flex;
+    justify-content: 'space-between';
+    align-items: center;
+  }
+  .app__order-h1 h1 {
+    margin:0 15rem;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+.app__order-button{
+    background-color: var(--color-yellow);
+    font-weight: bold;
+    padding: 1em 1em;
+    width: 170px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin: 2rem 15rem;
+    border: none;
+    cursor: pointer;
+    
+}

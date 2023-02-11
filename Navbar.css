@@ -1,0 +1,49 @@
+.app__navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 1rem 2rem;
+}
+
+.app__logo{
+    display: flex;
+    align-items: center;
+
+}
+.app__logo img{
+    width: 250px;
+    margin-left: 150px;
+    justify-content: space-evenly;
+
+}
+
+.app__navbar-links{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-left: 80px;
+
+}
+
+.app__navbar-links li{
+    margin:0 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    
+    
+}
+
+a:hover{
+    color: green;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    text-shadow: black;
+}
