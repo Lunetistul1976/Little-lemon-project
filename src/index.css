@@ -20,3 +20,19 @@ code {
   --color-yellow: #F4CE14;
   --color-grey: #545454;
 }
+
+@media  (max-width: 899px) {
+  body {
+    font-size: 12px;
+  }
+  header {
+    text-align: center;
+  }
+  nav{
+    text-align: center;
+  }
+  
+  section {
+    padding: 10px;
+  }
+}

@@ -47,3 +47,18 @@ a{
     color: black;
     text-shadow: black;
 }
+@media (max-width: 899px) {
+    .app__logo img {
+      width: 180px;
+      margin-left: -10px;
+    }
+  
+    .app__navbar-links {
+        flex-direction: column;
+      margin-left: 0;
+    }
+  
+    .app__navbar-links li {
+      margin: 0.5rem 0;
+    }
+  }

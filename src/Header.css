@@ -44,3 +44,42 @@
     border: none;
     cursor: pointer;
 }
+
+@media (max-width: 899px) {
+    .app__header {
+      padding: 20px;
+      margin-right: -60px;
+    }
+    
+    .app__header-h1 {
+      font-size: 40px;
+      
+    }
+    
+    .app__header-h2 {
+      font-size: 20px;
+    }
+    
+    .p__opensas {
+      font-size: 14px;
+      margin-right: -40px;
+    }
+    .app__header-button{
+      background-color: var(--color-yellow);
+      font-weight: bold;
+      border-radius: 15px;
+      padding: 12px;
+      font-size: 15px;
+      border: none;
+      cursor: pointer;
+    }
+    .app__wrapper__img img {
+      width: 200px;
+      height: 200px;
+      margin: 0 60px;
+    }
+  }
+
+  
+  
+  

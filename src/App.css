@@ -11,17 +11,3 @@
     background-position: center;
     background-size: cover;
 }
-
-@media only screen and (max-width: 480px) {
-    body {
-      font-size: 14px;
-    }
-    
-    header {
-      text-align: center;
-    }
-    
-    section {
-      padding: 10px;
-    }
-  }

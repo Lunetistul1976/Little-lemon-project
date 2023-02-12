@@ -1,0 +1,18 @@
+@media (max-width: 480px) {
+    .form-container {
+      max-width: 300px;
+    }
+  
+    label {
+      font-size: 14px;
+    }
+  
+    input[type="text"],
+    input[type="email"],
+    select,
+    textarea {
+      font-size: 14px;
+      width: 100%;
+    }
+  }
+  
